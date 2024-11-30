@@ -42,10 +42,8 @@ public class bank{
     public static void main(String [] args) {
         Random rand = new Random();
        long randAcctNum = rand.nextInt();
-       bank testbank = new bank("Ade",0,0);
+       bank testbank = new bank("",0,0);
        testbank.setAcct(randAcctNum);
-       //testbank.setBalance(5_000);
-       //testbank.display();
        while(true){
             System.out.println("Main Menu");
             System.out.println("Select from the following options:");
